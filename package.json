@@ -1,0 +1,15 @@
+{
+  "name": "pkg_gitub_repo_search_npm",
+  "version": "1.0.0",
+  "description": "Program pulls git users repositories based on number of stars. Project used to practice packaging to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
