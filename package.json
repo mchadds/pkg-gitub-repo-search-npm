@@ -3,11 +3,23 @@
   "version": "1.0.0",
   "description": "Program pulls git users repositories based on number of stars. Project used to practice packaging to npm",
   "main": "index.js",
+  "homepage": "https://github.com/mchadds/pkg_gitub_repo_search_npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mchadds/pkg_gitub_repo_search_npm.git"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "github",
+    "repos",
+    "repositories",
+    "sort",
+    "stars"
+  ],
+  "author": "Chad <cdevsd@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0"

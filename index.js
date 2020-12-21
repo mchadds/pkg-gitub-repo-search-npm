@@ -15,7 +15,7 @@ const getRepos = async ({
         .map((repo) =>  {
             // selecting required fields of repos
             return {
-                name: repo.nameurl,
+                name: repo.name,
                 url: repo.html_url,
                 description: repo.description,
                 stars: repo.stargazers_count
@@ -30,4 +30,4 @@ const getRepos = async ({
     }
 };
 
-getRepos().then((repositories) => console.log(repositories));
+module.exports = { getRepos };
