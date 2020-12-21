@@ -13,3 +13,14 @@ npm i pkg_gitub_repo_search_npm
 
 ## Technology
 Node.js
+
+## NPM Publishing Steps
+Once the program is complete:
+1) Login witih npm login command and enter npm credentials
+```
+npm login
+```
+2) Publish the package using the npm publish command
+```
+npm publish
+```
