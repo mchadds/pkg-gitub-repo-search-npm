@@ -1,9 +1,9 @@
 # pkg-gitub-repo-search-npm
-Project Purpose
+##Project Purpose
 Program pulls down repositories of github user and prints them in the console log, ordered by number of stars the repository has.
 
-NPM Packaging
+##NPM Packaging
 This was a basic program used to practice upoading a package to npm - the package can be found at https://www.npmjs.com/package/pkg_gitub_repo_search_npm
 
-Technologies
+##Technology
 Node.js
